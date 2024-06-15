@@ -3,8 +3,9 @@ import React from "react";
 const PasswordStrengthIndicator = ({ password = "" }) => {
   const getPasswordStrength = () => {
     const passwordLength = password.length;
-
-    if (passwordLength < 4) {
+    if (passwordLength < 1) {
+      return "";
+    } else if (passwordLength < 4) {
       return "Very Weak";
     } else if (passwordLength < 8) {
       return "Weak";
