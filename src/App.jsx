@@ -33,8 +33,6 @@ export default function App() {
 
   const { password, errorMessage, generatePassword } = usePasswordGenerator();
 
-  console.log(password);
-
   return (
     <div className="App">
       <div className="container">
