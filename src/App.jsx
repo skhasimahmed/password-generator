@@ -58,7 +58,10 @@ export default function App() {
           min="4"
           max="25"
           value={length}
-          onChange={(e) => setLength(e.target.value)}
+          onChange={(e) => {
+            setLength(e.target.value);
+            generatePassword(checkboxData, e.target.value);
+          }}
         />
       </div>
 
