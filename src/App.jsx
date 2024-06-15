@@ -47,7 +47,7 @@ export default function App() {
             marginBottom: "50px",
           }}
         >
-          <h1>
+          <h1 className="app-heading">
             <span
               style={{
                 color: "black",
