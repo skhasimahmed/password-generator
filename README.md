@@ -1,3 +1,21 @@
+# Password Generator
+
+An online tool built with React to generate random password strong that consists characters, numbers, and symbols.
+
+It generates a random string each time you click on the Generate button. Also, it allows to copy the generated password to the Clipboard.
+
+# React Concepts
+
+In this demo, following concepts are used.
+
+** Components
+** Hooks (useState(), useEffect(), etc.)
+
+## Development server
+
+To install it on your local server, clone this repository and run `npm install`. Once the installation is completed,
+run `npm run dev` for a dev server. Navigate to `http://localhost:5173/`.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
