@@ -1,9 +1,19 @@
-* {
-  font-family: Arial;
+body {
+  color: #3c4a55;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9fbfd;
+  color: #3c4a55;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .container {
-  background-color: #24232b;
   padding: 24px;
   width: 50%;
   position: absolute;
@@ -13,7 +23,6 @@
 }
 
 .header {
-  color: white;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
@@ -22,25 +31,26 @@
 }
 
 button {
-  padding: 10px;
   border-radius: 5px;
   border: none;
-  background-color: #2a8b8b;
-  color: white;
   text-transform: uppercase;
   font-weight: 700;
   cursor: pointer;
+  color: black;
 }
 
 .copyBtn {
   height: 30px;
   font-size: 10px;
+  background-color: #d32d27;
+  color: white;
+  padding: 10px;
 }
 
 .charlength {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: #3c4a55;
   font-size: 20px;
   font-weight: 700;
   padding-bottom: 24px;
@@ -58,7 +68,6 @@ button {
   grid-template-columns: auto auto;
   font-size: 16px;
   font-weight: 700;
-  color: white;
 }
 
 .checkboxes div {
@@ -71,12 +80,16 @@ button {
   width: 100%;
   font-size: 20px;
   padding: 20px;
+  background-color: #d32d27;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
 }
 
 .errorMessage {
   color: red;
   padding-bottom: 5px;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .password-strength {
@@ -84,5 +97,5 @@ button {
   display: flex;
   justify-content: space-between;
   padding-bottom: 12px;
-  color: white;
+  font-family: "Noto Sans", sans-serif;
 }
