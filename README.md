@@ -8,8 +8,8 @@ It generates a random string each time you click on the Generate button. Also, i
 
 In this demo, the following concepts are used.
 
-**Components**
-**Hooks (useState(), useEffect(), etc.)**
+* Components
+* Hooks (useState(), useEffect(), etc.)
 
 ## Development server
 
