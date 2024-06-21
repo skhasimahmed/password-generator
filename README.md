@@ -1,15 +1,15 @@
 # Password Generator
 
-An online tool built with React to generate random password strong that consists characters, numbers, and symbols.
+An online tool built with React to generate a random password that consists of characters, numbers, and symbols.
 
-It generates a random string each time you click on the Generate button. Also, it allows to copy the generated password to the Clipboard.
+It generates a random string each time you click on the Generate button. Also, it allows you to copy the generated password to the Clipboard.
 
 # React Concepts
 
-In this demo, following concepts are used.
+In this demo, the following concepts are used.
 
-** Components
-** Hooks (useState(), useEffect(), etc.)
+**Components**
+**Hooks (useState(), useEffect(), etc.)**
 
 ## Development server
 
